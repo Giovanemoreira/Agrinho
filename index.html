@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"  crossorigin="anonymous"  />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+/>
+    <link rel="stylesheet" href="style.css" />   
+    <title>Festejando a conecção campo e cidade</title>
+</head>
+<body>
+    <header class="container text-center">
+    <img src="img/Campo e cidade.jpg" alt="avatar do giovane" class="rounded-circle" width="150" height="150" srcset="" /> 
+    <p class="lead">Eu sou a vida e a tecnologia</p>
+    <h1>Eu forneço alimentos para as cidades</h1> 
+    <p>Nossa relação é interdependente</p>  
+    <p>Minhas habilidades</p>
+    <div>
+        <p class="badge bg-secondary">Produzir</p>
+        <p class="badge bg-secondary">Enrequecer</p>
+        <p class="badge bg-secondary">Fertilidade</p>
+    </div>
+</header>
+<main class="container mt-5">
+<h2>Variedades no campo</h2>
+<div class="row">
+    <!-- Projeto 1 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img/Soja.jpg" class="card-img-top" alt="Imagem do projeto de músicas">
+        <div class="card-body">
+          <h5 class="card-title">Plantação de soja</h5>
+          <p class="card-text">
+            Aqui você verá uma plantação enrequecida.
+          </p>
+          <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Soja no campo</button>  
+    </div>
+   </div>
+ </div>
+ <!-- Projeto 2 -->
+ <div class="col-md-4">
+      <div class="card">
+        <img src="img/Frutas e legumes.jpg" class="card-img-top" alt="Imagem do projeto de comida">
+        <div class="card-body">
+          <h5 class="card-title">Variedade de frutas e legumes</h5>
+          <p class="card-text">
+            Aqui você verá as variedades de frutas e legumes que o campo fornece a cidade.
+          <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Frutas e legumes no campo</button>  
+    </div>
+   </div>
+ </div>
+ <!-- Projeto 3 -->
+ <div class="col-md-4">
+      <div class="card">
+        <img src="img/Tecnologia.jpg" class="card-img-top" alt="Imagem do projeto de esporte">
+        <div class="card-body">
+          <h5 class="card-title">Tecnologia de ponta</h5>
+          <p class="card-text">
+            Aqui você verá a Tecnologia avançada e usada no campo
+          <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Tecnologia no campo</button>  
+    </div>
+   </div>
+ </div>
+</div>
+</main>
+<!-- Modal 1 -->
+<div class="modal" id="modal1" tabindex="-1">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Plantação de soja</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <p>A soja é uma importante cultura no país, em produção, produtividade e área plantada. Segundo dados da Conab, a produtividade esperada para a safra 2021/22 é de 3.526 kg/ha e produção de 140.752,2 milhões de toneladas de soja. Esse número representa um crescimento de 2,5% em relação à safra passada.</p>
+             </p>
+              <img src="img/Soja.jpg" class="img-fluid w-100"
+                  alt="Imagem representativa da soja">
+          </div>
+          <div class="modal-footer">
+              <a href="https://www.youtube.com/watch?v=-v8tnSBt4mY">Vídeo de plantação de soja</a>
+              <a href="https://www.youtube.com/watch?v=zOtAZV6qIbw">Explicação da lavoura de soja</a>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal" id="modal2" tabindex="-1">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Variedade de frutas e legumes</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <p> Frutas, verduras e legumes são fundamentais para uma alimentação saudável, pois fornecem nutrientes essenciais como vitaminas, minerais, fibras e água, que auxiliam na promoção da saúde e prevenção de doenças. </p>
+             </p>
+              <img src="img/Frutas e legumes.jpg" class="img-fluid w-100"
+                  alt="Imagem representativa de frutas e legumes">
+          </div>
+          <div class="modal-footer">
+              <a href="https://www.youtube.com/watch?v=jfcqaRCefQ4">Dicas de uma nutricionista</a>
+              <a href="https://www.youtube.com/watch?v=v8VYmaBiF6M">Receitas de vitamina</a>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal" id="modal3" tabindex="-1">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Tecnologia de ponta</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <p>A tecnologia no campo é a aplicação de ferramentas e técnicas modernas para otimizar a produção agrícola, desde o plantio até a colheita, passando por todas as etapas intermediárias.</p>
+             </p>
+              <img src="img/Tecnologia.jpg" class="img-fluid w-100"
+                  alt="Imagem representativa da tecnologia no campo">
+          </div>
+          <div class="modal-footer">
+              <a href="https://www.youtube.com/watch?v=B9eVYW6ooBI">Tecnologia no campo</a>
+              <a href="https://www.youtube.com/watch?v=EXUl_ISeyuU">Diversas tecnologias usadas no campo</a>
+          </div>
+      </div>
+  </div>
+</div>
+
+<footer class="container py-5">
+<h2>Entre em contato</h2>
+<div>
+  <i class="bi bi-github"></i>
+    <a href="https://github.com/Giovanemoreira">GitHub</a>
+</div>
+<p class="my-5 text-center">© Copyright 2025. Produzido por Giovane Moreira e Rafaelly Andrade</p>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
